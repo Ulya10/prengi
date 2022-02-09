@@ -1,0 +1,181 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .header {
+        &__item {
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .header {
+        min-height: 50px;
+
+        &__flag {
+            display: none;
+        }
+
+        &__item {
+            font-size: 9px;
+        }
+    }
+
+    .nav {
+        &__logo {
+            width: 110px;
+            height: auto;
+        }
+    }
+
+    .promo {
+        padding: 15px 0;
+        min-height: auto;
+
+        &__descr {
+            margin-top: 60px;
+        }
+    }
+
+    .slider {
+        margin-top: 32px;
+    }
+
+    .phone {
+        &0 {
+            bottom: -15px;
+            width: 142px;
+            height: 252px;
+            right: 70px;
+        }
+
+        &1 {
+            bottom: -15px;
+            width: 160px;
+            height: 284px;
+
+        }
+    }
+
+    .screen {
+        &0 {
+            width: 118px;
+            height: 208px;
+            right: 11px;
+            bottom: 0px;
+        }
+
+        &1 {
+            width: 129px;
+            height: 234px;
+            right: 11px;
+            bottom: 0px;
+        }
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .header {
+        min-height: auto;
+
+        &__title {
+            font-size: 11px;
+        }
+
+        &__item {
+            font-size: 7px;
+        }
+    }
+
+    .nav {
+        &__logo {
+            width: 80px;
+        }
+
+        &__list {
+            width: 400px;
+        }
+
+        &__item {
+            font-size: 11px;
+        }
+    }
+
+    .promo {
+        &__descr {
+            margin-top: 40px;
+        }
+
+        &__title {
+            width: 325px;
+            font-size: 20px;
+        }
+    }
+
+    .btn {
+        width: 224px;
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 310px;
+    }
+
+    .header {
+        position: absolute;
+        left: -100%;
+        width: 250px;
+        z-index: 2;
+
+        &__list {
+            flex-direction: column;
+            background-color: blue;
+            padding: 50px 0 50px 10px;
+
+        }
+
+        &__item {
+            margin-bottom: 20px;
+        }
+
+        &__flag {
+            display: block;
+        }
+
+    }
+
+    .nav {
+        &__list {
+            position: absolute;
+            left: -100%;
+            width: 250px;
+            flex-direction: column;
+            background-color: blue;
+            padding: 50px 0 50px 10px;
+        }
+
+        &__item {
+            margin-bottom: 20px;
+        }
+
+        &__wrapper-xs{
+            display: flex;
+            align-items: center;
+        }
+    }
+}

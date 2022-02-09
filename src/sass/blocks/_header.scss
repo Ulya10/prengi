@@ -1,0 +1,36 @@
+.header{
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__item{
+        display: flex;
+        align-items: flex-start;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #242424;
+    }
+    &__tel{
+    color: #242424;
+    }
+    &__flag{
+        display: block;
+        padding-top: 3px;
+    }
+    &__block{
+        margin-left: 11px;
+    }
+    &__title{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+}

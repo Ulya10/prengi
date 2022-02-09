@@ -1,0 +1,45 @@
+.footer {
+    padding: 49px 0 40px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.36;
+    background-color: #0083a2;
+    color: $main-color;
+
+    &__lists {
+        display: flex;
+    }
+
+    &__about {
+        margin-right: 114px;
+        width: 377px;
+    }
+
+    &__modules {
+        margin-right: 73px;
+    }
+
+    &__fields {
+        margin-right: 86px;
+    }
+
+    &__title {
+        font-weight: 700;
+    }
+
+    &__logo {
+        margin: 10px 0;
+    }
+
+    &__divider {
+        width: 1171px;
+        height: 1px;
+        margin: 44px 0 36px;
+        background-color: $main-color;
+        opacity: 0.3;
+    }
+
+    &__copy {
+        text-align: center;
+    }
+}

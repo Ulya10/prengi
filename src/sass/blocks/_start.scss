@@ -1,0 +1,15 @@
+.start{
+    padding: 80px 0;
+    text-align: center;
+    .title{
+        margin: 74px 0 30px 0;
+    }
+    &__blockimg{
+        width: 302px;
+        height: 302px;
+        margin: 0 auto;
+    }
+    &__img{
+       width: 100%; 
+    }
+}

@@ -1,0 +1,36 @@
+@import 'base/variables';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/dobetter';
+@import 'blocks/title';
+@import 'blocks/solutions';
+@import 'blocks/benefits';
+@import 'blocks/options';
+@import 'blocks/start';
+@import 'blocks/footer';
+@import 'blocks/media';
