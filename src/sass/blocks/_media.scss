@@ -8,6 +8,17 @@
             font-size: 10px;
         }
     }
+
+    .dobetter{
+        &__block{
+        width: 300px;
+        height: 212px;
+}
+        &__descr{
+            bottom: 25px;
+        }
+    
+    }
 }
 
 @media (max-width: 992px) {
@@ -79,6 +90,47 @@
         }
     }
 
+    .dobetter{
+        padding: 40px 0;
+        &__block{
+        width: 220px;
+        height: auto;
+
+        &:nth-child(1) {
+            div {
+                min-width: 200px;
+            }
+        }
+
+        &:nth-child(2) {
+            div {
+                min-width: 200px;
+            }
+        }
+
+        &:nth-child(3) {
+            div {
+                min-width: 200px;
+            }
+        }
+}
+        &__descr{
+            font-size: 12px;
+            bottom: 10px; 
+        }
+
+        &__chevron{
+            margin-top: 10px;
+            width: 15%;
+        }
+
+        &__with {
+            margin: 10px 0 10px 0;
+            font-size: 28px;
+        }
+    
+    }
+
 
 }
 
@@ -129,28 +181,81 @@
         height: 50px;
     }
 
+    .dobetter{
+        .container{
+            display: flex;
+            align-items: center;
+        }
+        &__wrapper{
+            margin: 0 auto;
+            flex-wrap: wrap;
+            width: 200px;
+            justify-content: center;
+        }
+        &__block{
+            margin-bottom: 0;
+        }
+        &__chevron{
+            transform: rotate(-90deg);
+        }
+        &__with{
+            font-size: 15px;
+            margin-right: 5px;
+        }
+
+
+    }
+
 }
 
 @media (max-width: 576px) {
     .container {
-        width: 310px;
+        width: 100%;
+        padding: 0 5px;
+        
+    }
+
+    .promo{
+        overflow: hidden;
+        padding-top: 0;
+        &__descr{
+            width: 200px;
+            font-size: 25px;
+        }
+
+        &__title{
+            width: 200px;
+            font-size: 18px;
+        }
+
+    }
+
+    .btn{
+        width: 170px;
+        height: 40px;
+        font-size: 12px;
     }
 
     .header {
         position: absolute;
-        left: -100%;
-        width: 250px;
+        left: -100%;/*-5px;*/
+        width: 200px;
         z-index: 2;
+        
 
         &__list {
             flex-direction: column;
-            background-color: blue;
+            background-color: #00c2f0;
             padding: 50px 0 50px 10px;
 
         }
 
         &__item {
             margin-bottom: 20px;
+            color: $main-color;
+            a{
+                color: $main-color;
+            }
         }
 
         &__flag {
@@ -162,11 +267,12 @@
     .nav {
         &__list {
             position: absolute;
-            left: -100%;
-            width: 250px;
+            left: -100%;/*-5px;*/
+            top: 0;
+            width: 200px;
             flex-direction: column;
-            background-color: blue;
-            padding: 50px 0 50px 10px;
+            background-color: #00c2f0;
+            padding: 40px 0 10px 10px;
         }
 
         &__item {
@@ -177,5 +283,35 @@
             display: flex;
             align-items: center;
         }
+
+        &__logo{
+            margin-top: 5px;
+            width: 65px;
+        }
     }
+
+
+    .phone0{
+display: none;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .phone1{
+        right: -55px;
+    }
+
+    .dobetter{
+        .container{
+            display: block;
+        }
+
+        &__chevron{
+            transform: rotate(0deg);
+        }
+    }
+
+
 }
