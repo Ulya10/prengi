@@ -1,9 +1,9 @@
 .options{
-    height: 580px;
+    /*height: 580px;*/
     color: $main-color;
-    padding: 79px 0 0 0;
-    background: url('../img/variant1.jpg') top left / 50% no-repeat,
-    url('../img/variant2.jpg') top right / 50% no-repeat;
+    padding: 79px 0 220px 0;
+    background: url('../img/variant1.jpg') top left calc(-960px + 50vw)/ 960px 580px no-repeat,
+    url('../img/variant2.jpg') top right calc(-960px + 50vw)/ 960px 580px no-repeat;
     
     .title{
         width: 377px;

@@ -34,9 +34,12 @@
     &__divider {
         width: 1171px;
         height: 1px;
-        margin: 44px 0 36px;
+        margin: 44px auto 36px auto;
         background-color: $main-color;
         opacity: 0.3;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     &__copy {

@@ -14,7 +14,9 @@
 
 <body>
     <header class="header">
+        <div class="header__close"></div>
         <div class="container">
+            
             <ul class="header__list">
                 <li class="header__item">
                     <img src="icons/Ukraine.png" alt="Ukraine" class="header__flag">
@@ -65,8 +67,11 @@
     <section class="promo">
         <div class="container">
             <nav class="nav">
+                
                 <div class="nav__logo"><img src="icons/logo.png" alt="logo"></div>
+                
                 <ul class="nav__list">
+                <li class="nav__close"></li>    
                     <li class="nav__item"><a class="nav__link" href="#">главная</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Модули</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Отрасли</a></li>
@@ -75,15 +80,15 @@
                 </ul>
                 <div class="nav__wrapper-xs">
                     <div class="nav__contacts">
-                    <img src="icons/phone.png" alt="phone">
+                        <img src="icons/phone.png" alt="phone">
+                    </div>
+                    <div class="nav__hamburger">
+                        <div class="nav__line"></div>
+                        <div class="nav__line"></div>
+                        <div class="nav__line"></div>
+                    </div>
                 </div>
-                <div class="nav__hamburger">
-                    <div class="nav__line"></div>
-                    <div class="nav__line"></div>
-                    <div class="nav__line"></div>
-                </div>
-                </div>
-                
+
             </nav>
             <div class="promo__descr">Управляй своим бизнесом через Smartphone</div>
             <h1 class="promo__title"><span>PRENGI</span> - Платформа для прозрачного
@@ -91,8 +96,8 @@
             <button class="btn">Получить доступ</button>
             <div class="slider">
                 <a href="" class="slider__left"></a>
-                <div class="slider__item slider__item_active"></div>
                 <div class="slider__item"></div>
+                <div class="slider__item slider__item_active"></div>
                 <div class="slider__item"></div>
                 <div class="slider__item"></div>
                 <div class="slider__item"></div>
@@ -109,7 +114,7 @@
         </div>
 
     </section>
-    
+
     <section class="dobetter">
         <div class="container">
             <div class="dobetter__wrapper">
@@ -140,22 +145,26 @@
             </div>
         </div>
     </section>
-    <!--<section class="solutions">
+    <section class="solutions">
         <div class="container">
             <h2 class="title">Prengi предоставляет экспертные решения
                 для Вашей отрасли</h2>
-            <ul class="solutions__tabs">
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Production</a></li>
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi FMC</a></li>
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Mallz Retail</a></li>
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Logistic</a></li>
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi IT</a></li>
-                <li class="solutions__tab"><a href="#" class="solutions__link">Prengi HR</a></li>
-            </ul>
-            <div class="solutions__slides">
-                <div class="solutions__left"><img src="icons/chevron-left.png" alt="chevron-left"></div>
-                <div class="solutions__comp"><img src="img/slide2.jpg" alt="slide2" class="solutions__img"></div>
-                <div class="solutions__left"><img src="icons/chevron-right.png" alt="chevron-right"></div>
+            <div class="solutions__wrapper">
+                <ul class="solutions__tabs">
+                    <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Production</a></li>
+                    <li class="solutions__tab "><a href="#" class="solutions__link solutions__link_active">Prengi FMC</a></li>
+                    <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Mallz Retail</a></li>
+                    <li class="solutions__tab"><a href="#" class="solutions__link">Prengi Logistic</a></li>
+                    <li class="solutions__tab"><a href="#" class="solutions__link">Prengi IT</a></li>
+                    <li class="solutions__tab"><a href="#" class="solutions__link">Prengi HR</a></li>
+                </ul>
+                <div class="solutions__slides">
+                    <div class="solutions__left"><img src="icons/chevron-left.png" alt="chevron-left"></div>
+                    <div class="solutions__comp"><img src="img/macbook-air.png" alt="comp"
+                            class="solutions__comp-outer"><div class="solutions__comp-inner"><img src="img/slide1.jpg" alt="slide2" class="solutions__img"></div>
+                    </div>
+                    <div class="solutions__right"><img src="icons/chevron-right.png" alt="chevron-right"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -206,23 +215,25 @@
         </div>
     </section>
     <section class="options">
-        <div class="overlay">
+
+        <div class="container">
             <h2 class="title">Варианты развертывания
                 Ваших данных</h2>
             <div class="options__wrapper">
                 <div class="options__block1">
-                    <div class="options__rect"></div>
+                    
                     <div class="options__blocktitle">Облачное хранилище</div>
                     <div class="options__descr">Это выделенное пользователю пространство на жестком диске сервера,
                         находящегося в Интернете. </div>
                 </div>
                 <div class="options__block2">
-                    <div class="options__rect"></div>
+                    
                     <div class="options__blocktitle">Размещение не сервере</div>
                     <div class="options__descr">Услуга аренды пространства в центре обработки данных (колокация
                         серверов) предназначена для клиентов</div>
                 </div>
             </div>
+
         </div>
     </section>
     <section class="start">
@@ -309,7 +320,7 @@
             <div class="footer__copy">© Prengi Ink. 2008-2017 Все права защищены.</div>
         </div>
     </footer>
-    -->
+   <script src="js/script.js"></script>
 </body>
 
 </html>
