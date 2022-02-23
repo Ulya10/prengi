@@ -28,6 +28,7 @@ function removeClass(arr, classname) {
     });
 }
 
+//first slider
 
 promoSliders.forEach((item, i) => {
     item.addEventListener('click', () => {
@@ -107,6 +108,7 @@ rightSlider.addEventListener('click', (evt) => {
     };
 });
 
+//open menu on xs
 menuBtn.addEventListener('click', () => {
     menuList.classList.toggle('nav__list_active');
     contactsList.classList.remove('header_active');
@@ -126,7 +128,7 @@ menuClose.addEventListener('click', () => {
     menuList.classList.remove('nav__list_active');
 });
 
-
+//second slider
 rightTab.addEventListener('click', () => {
     for (let i = 0; i < tabs.length; i++) {
         if (tabs[i].classList.contains('solutions__link_active')) {
